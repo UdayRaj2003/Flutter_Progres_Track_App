@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Parent Progress App',
       theme: ThemeData(colorSchemeSeed: Colors.deepPurple, useMaterial3: true),
-      home: const AuthGate(),
+      home: const DashboardScreen(),
     );
   }
 }
